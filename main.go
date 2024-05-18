@@ -12,5 +12,5 @@ func Count(r io.Reader) int {
 	for scanner.Scan() {
 		i++
 	}
-	return 0
+	return i
 }
